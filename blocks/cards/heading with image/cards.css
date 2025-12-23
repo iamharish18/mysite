@@ -1,0 +1,31 @@
+.cards-heading-image-only {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.cards-heading-image-only .card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  overflow: hidden;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.cards-heading-image-only .card:hover {
+  transform: translateY(-5px);
+}
+
+.cards-heading-image-only .card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cards-heading-image-only .card h3 {
+  margin: 10px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
